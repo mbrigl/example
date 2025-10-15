@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "usecase-server": {
+      "command": "java",
+      "args": [
+        "-cp",
+        "/pfad/zu/ihrem/projekt/target/mcp-server-1.0-SNAPSHOT.jar",
+        "com.example.mcp.MCPServer"
+      ],
+      "env": {
+        "JAVA_HOME": "/pfad/zu/java/home"
+      }
+    },
+    "usecase-server-http": {
+      "command": "/pfad/zum/projekt/start-mcp-http-proxy.sh",
+      "env": {
+        "MCP_SERVER_URL": "http://localhost:3000/mcp"
+      }
+    }
+  }
+}
+
+{
+  "mcpServers": {
+  }
+}
