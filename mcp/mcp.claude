@@ -1,14 +1,14 @@
 {
   "mcpServers": {
     "usecase-server": {
-      "command": "java",
+      "command": "/Develop/java/21/windows/bin/java",
       "args": [
         "-cp",
-        "/pfad/zu/ihrem/projekt/target/mcp-server-1.0-SNAPSHOT.jar",
+        "/Develop/workspace/example/mcp/target/mcp-server-1.0-SNAPSHOT-jar-with-dependencies.jar",
         "com.example.mcp.MCPServer"
       ],
       "env": {
-        "JAVA_HOME": "/pfad/zu/java/home"
+        "JAVA_HOME": "/Develop/java/21/windows"
       }
     },
     "usecase-server-http": {
